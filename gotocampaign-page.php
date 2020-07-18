@@ -40,7 +40,7 @@ conditionizr.config({
 <!-- logo -->
 <div class="logo">
 <h1>
-<a href="<?php echo home_url(); ?>">
+<a href="<?php echo home_url(); ?>/go-to-campaign/">
 <img src="<?php echo get_template_directory_uri(); ?>/img/ss/logo.svg" alt="Single Support" />
 </a>
 </h1>
@@ -55,7 +55,7 @@ conditionizr.config({
 			<li><a href="<?php echo home_url(); ?>/#OTOKU">お得度</a></li>
 			<li><a href="<?php echo home_url(); ?>/#PERIOD_LOCATION">期間・場所</a></li>
 			<li><a href="<?php echo home_url(); ?>/#HOWTO">利用方法</a></li>
-			<li><a href="<?php echo home_url(); ?>/CONTACT">お問い合わせ</a></li>
+			<li><a href="<?php echo home_url(); ?>/ss-contact">お問い合わせ</a></li>
 		</ul>
 	</div>
 </nav>
@@ -69,7 +69,7 @@ conditionizr.config({
 
 <!-- div -->
 <div class="nav" role="navigation">
-<a href="<?php echo home_url(); ?>/contact/" target="_blank">
+<a href="<?php echo home_url(); ?>/ss-contact/" target="_blank">
 <img src="<?php echo get_template_directory_uri(); ?>/img/ss/contact.svg" alt="お問い合わせボタン" />
 </a>
 </div>
@@ -106,7 +106,7 @@ conditionizr.config({
     </a>
 	</li>
 	<li class="list__item">
-    <a href="CONTACT" target="_blank" class="list__item__link">
+    <a href="<?php echo home_url(); ?>/ss-contact/" target="_blank" class="list__item__link">
 		お問い合わせ
     </a>
   </li>
@@ -144,7 +144,7 @@ conditionizr.config({
 </div>
 </div>
 <p class="cvImage">
-<a href="<?php echo home_url(); ?>/contact/" target="_blank">
+<a href="<?php echo home_url(); ?>/ss-contact/" target="_blank">
 <img src="<?php echo get_template_directory_uri(); ?>/img/ss/cv.png" alt="お問い合わせはこちらより" />
 </a>
 </p>
@@ -172,7 +172,7 @@ conditionizr.config({
 </p>
 </div>
 <p class="cvImage">
-<a href="<?php echo home_url(); ?>/contact/" target="_blank">
+<a href="<?php echo home_url(); ?>/ss-contact/" target="_blank">
 <img src="<?php echo get_template_directory_uri(); ?>/img/ss/cv.png" alt="お問い合わせはこちらより" />
 </a>
 </p>
@@ -203,7 +203,7 @@ conditionizr.config({
 <p>パッケージツアーは、航空券と宿泊施設（さらに現地の観光など）がセットになった旅行のことをいいます。各旅行会社のパンフレットなどに掲載した添乗員が同行するツアーや個人で行く旅行でもあらかじめ用意された航空機やホテル、観光地の中から決められていているプランを選ぶものなどがあります。料金が記載されているので、わかりやすい反面、プランのアレンジができない、自分のペースで旅ができないなどの面があります。<br/><br/>
 一方、オーダーメイド旅行は、お客様の旅行の希望や要望をかなえるために一から旅行プラン（日程表・見積）を作成、修正など加え、旅行プラン（日程表・見積）が決まった後に予約・手配を行います。旅行先でしたいことがある、複数の場所をまわりたいなど、目的をもって旅行をする方や団体ではなく自由に旅行をしたい方に向いています。オーダーメイド旅行は、お客様と旅行会社が共同で旅を創り上げる、こだわりのオリジナルツアーです。</p>
 <p class="cvImage">
-<a href="<?php echo home_url(); ?>/contact/" target="_blank">
+<a href="<?php echo home_url(); ?>/ss-contact/" target="_blank">
 <img src="<?php echo get_template_directory_uri(); ?>/img/ss/cv.png" alt="お問い合わせはこちらより" />
 </a>
 </p>
@@ -240,7 +240,7 @@ conditionizr.config({
 <li>ご出発
 </ol>
 <p class="cvImage">
-<a href="<?php echo home_url(); ?>/contact/" target="_blank">
+<a href="<?php echo home_url(); ?>/ss-contact/" target="_blank">
 <img src="<?php echo get_template_directory_uri(); ?>/img/ss/cv.png" alt="お問い合わせはこちらより" />
 </a>
 </p>
