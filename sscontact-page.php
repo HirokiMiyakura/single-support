@@ -17,6 +17,9 @@ Template Name: お問い合わせページ（sscontact-page.php）
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="<?php bloginfo('description'); ?>">
+<!----- favicon----->
+<link rel="shortcut icon" href="<?php bloginfo('template_directory'); ?>/favicon.ico"/>
+<link rel="icon" href="<?php bloginfo('template_directory'); ?>/favicon.png">
 <?php wp_head(); ?>
 <script>
 // conditionizr.com
