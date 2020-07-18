@@ -1,0 +1,48 @@
+
+
+/* editor */
+
+.the_content p {
+    display: block;
+    margin: 1em 0;
+    word-break: break-all;
+}
+.the_content strong { font-weight: bold; }
+.the_content em { font-style: italic; }
+.the_content blockquote {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 40px;
+    -webkit-margin-end: 40px;
+}
+
+/* img */
+
+.alignnone {
+    margin: 10px 10px 10px 0;
+}
+.aligncenter {
+    display: block;
+    margin: 10px auto;
+}
+.alignright { float: right; margin: 10px 0 10px 10px;}
+.alignleft { float: left; margin: 10px 10px 10px 0;}
+
+img[class*="wp-image-"],
+img[class*="attachment-"] {
+    height: auto;
+    max-width: 100%;
+}
+
+/* clearfix */
+
+.clearfix {
+    overflow: hidden;
+    zoom: 1;
+}
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
